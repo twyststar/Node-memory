@@ -1,0 +1,35 @@
+body {
+  background-color: lightgray;
+}
+.container {
+  background-color: lightgray;
+}
+.header {
+  margin-bottom: 2%;
+  text-align: center;
+  background-color: lightgray;
+}
+.sidebar {
+  float: left;
+  text-align: center;
+}
+.row {
+  float: right;
+  margin-left: 0;
+}
+.card {
+  border: 2px solid white;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 0;
+}
+
+.card:hover {
+  border: 5px solid white;
+}
+
+.well {
+  background-image: url(../img/card-back.jpg);
+  background-size: cover;
+
+}
